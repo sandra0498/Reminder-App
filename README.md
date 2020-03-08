@@ -1,3 +1,3 @@
 # Reminder App
  
-In this application, the user will input an event, a time and a factor that will determine its priority.
+In this application, the user will input an assignment that is due, as well as the due date.
