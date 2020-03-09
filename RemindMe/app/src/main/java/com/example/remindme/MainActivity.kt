@@ -59,5 +59,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         val reference = FirebaseDatabase.getInstance().getReference("Assignments")
+        val assignID = reference.push().key
+
+       // val assignments = Assignments(assignment, dueDate)
     }
 }
