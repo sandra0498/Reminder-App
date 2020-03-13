@@ -57,10 +57,10 @@ class MainActivity : AppCompatActivity() {
             editEvent.error = "Please enter an assignment! "
             return
         }
-
-        val reference = FirebaseDatabase.getInstance().getReference("Assignments")
-        val assignID = reference.push().key
-
-       // val assignments = Assignments(assignment, dueDate)
+//
+//        val reference = FirebaseDatabase.getInstance().getReference("Assignments")
+//        val assignID = reference.push().key
+//
+//       // val assignments = Assignments(assignment, dueDate)
     }
 }
